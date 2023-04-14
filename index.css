@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+   background-color: #0F0617;
+    
+   
+}
+
+
+
+.gudhipadwa img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.navbar{
+    margin:0 auto; 
+    padding: 0;
+}
+.btn btn-outline-success{
+    background-color: blueviolet;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+
+}
+.d-flex{
+    gap: 20px;
+}
+.d-flex input{
+    background-color: transparent;
+    color: white;
+   
+}
+.d-flex input::placeholder{
+    
+    color: white;
+}
+.d-flex .login{
+    padding: 5px;
+    color: aliceblue;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 10px;
+}
+.d-flex .buy{
+    background-color: #7A2ABB;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 4px;
+}
+.d-flex a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.navbar .container-fluid .collapse ul li a{
+    color:white;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    }
+.navbar .container-fluid .d-flex input{
+   width: 300px;
+}
+
+#carouselExampleSlidesOnly .carousel-inner{
+    gap: 10px;
+}
+
+.serial{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+
+    background-color: #0F0617;
+
+}
+
+
+
+
+.trending .trend{
+    color: white;
+    padding: 15px;
+}
+
+#o123{
+    display: flex;
+    justify-content: space-evenly; 
+    flex-wrap: wrap;    
+    
+}
+
+
+.card{
+    background-color: white;
+    height: 450px;
+    width: 400px;
+    position: relative;
+    margin: 10px    ;
+    border-radius: 10px;
+    border: none;
+}
+.card:hover{
+    background-color: white;
+    padding: 10px;
+    height: 500px;
+    width: 400px;
+}
+
+.card img{
+    width: 100%;
+    height: 100%;
+}
+.card-body{
+    position: absolute;
+    
+    width: 95%;
+    bottom: 0;
+    opacity: 0;
+    background-color: white;
+}
+.card-body .watch{
+    background-color:white ;
+    border-radius: 4px;
+    padding: 5px;
+}
+.card-body .Share{
+    float: right;
+    background-color:white ;
+    border-radius: 4px;
+    padding: 5px;
+}
+.card-body:hover{
+    opacity: 1;
+}
+.card-title,.card-text{
+    background-color: aliceblue;
+}
+
+
+
+/* article */
+article h1{
+    color: white;
+    padding: 15px;
+    
+}
+
+.card1{
+    background-color: white;
+    height: 250px;
+    width: 450px;
+    position: relative;
+    margin: 10px    ;
+    border-radius: 10px;
+    border: none;
+    
+}
+.card1 img{
+    height: 100%;
+    width: 450px;
+}
+.card1 card-body{
+    position: absolute;
+    background-color: aliceblue;
+    bottom: 0;
+    width: 100%;
+}
+
+.card-body1{
+    position: absolute;
+    
+    width: 100%;
+    bottom: 0;
+    opacity: 0;
+    background-color: white;
+    padding: 5px;
+}
+.card-body1:hover{
+    opacity: 1;
+}
+
+.card-body1 .watch{
+    background-color:white ;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.card-body1 .Share{
+    float: right;
+    background-color:white ;
+    border-radius: 4px;
+    padding: 5px;
+}
+.card1:hover{
+    border: 5px solid white;
+}
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+footer{
+    height: 500px;
+}
+
+footer .tables{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+footer .tables ul li{
+    list-style: none;
+    padding: 10px;
+
+}
+footer .tables ul li a{
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1px;
+    
+}
+footer .bold{
+    font-weight: bold;
+    font-size:20px;
+}
+footer .about{
+    display: flex;
+}
+footer .about h2,p{
+    color: white;
+    padding: 10px;
+}
