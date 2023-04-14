@@ -8,7 +8,9 @@
    
 }
 
-
+body{
+    background-color: #0F0617;
+}
 
 .gudhipadwa img{
     width: 100%;
@@ -94,38 +96,63 @@
     padding: 15px;
 }
 
+.trending{
+    height: 100%;
+    width: 100%;
+    white-space: nowrap;
+    background: #0F0617; 
+    overflow: hidden;
+}
+
 #o123{
-    display: flex;
-    justify-content: space-evenly; 
-    flex-wrap: wrap;    
+    overflow-x: auto;
+    width: 100%;
+    padding: 0 50px;
     
+}
+#o123::-webkit-scrollbar{
+    display: none;
 }
 
 
 .card{
-    background-color: white;
-    height: 450px;
-    width: 400px;
-    position: relative;
-    margin: 10px    ;
-    border-radius: 10px;
+   
+    display: inline-block;
+    margin: 50px 10px;
+    padding: 5px;
+    /* margin: 0 10px; */
     border: none;
-}
-.card:hover{
-    background-color: white;
-    padding: 10px;
+    /* height: 320px; */
+    background: transparent;
     height: 500px;
-    width: 400px;
+    width: 350px;
+    border-radius: 15px;
+    position: relative;
+    background-color: white;
+
 }
+#o123 .card:hover {
+    transform: scale(1.1);
+   border: 3px solid white;
+    transition: all 0.3s ease-in;
+}
+#o123 .card-body:hover {
+    opacity: 1;
+    border-radius: 0 0 15px 15px;
+    padding: 0px 10px;
+    transition: all 0.4s ease-in;
+}
+
 
 .card img{
     width: 100%;
     height: 100%;
+    border-radius: 0 0 15px 15px;
 }
 .card-body{
     position: absolute;
-    
-    width: 95%;
+    border-radius: 0 0 15px 15px;
+    width: 100%;
     bottom: 0;
     opacity: 0;
     background-color: white;
@@ -165,11 +192,13 @@ article h1{
     margin: 10px    ;
     border-radius: 10px;
     border: none;
+    display: inline-block;
     
 }
 .card1 img{
     height: 100%;
-    width: 450px;
+    width: 100%;
+    border-radius: 10px;
 }
 .card1 card-body{
     position: absolute;
@@ -189,6 +218,9 @@ article h1{
 }
 .card-body1:hover{
     opacity: 1;
+    border-radius: 0 0 15px 15px;
+    padding: 0px 10px;
+    transition: all 0.4s ease-in;
 }
 
 .card-body1 .watch{
@@ -206,10 +238,23 @@ article h1{
 .card1:hover{
     border: 5px solid white;
 }
+
+.hindi,.marathi{
+    height: 100%;
+    width: 100%;
+    white-space: nowrap;
+    background: #0F0617; 
+    
+}
 .main{
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+    overflow-x: auto;
+    width: 100%;
+    padding: 0 50px;
+    
+}
+
+.main::-webkit-scrollbar{
+    display: none;
 }
 footer{
     height: 500px;
